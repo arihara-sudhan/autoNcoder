@@ -5,7 +5,7 @@ from PIL import Image
 """
     PARAMS: Image read using Image of Pillow
     RETURNS: Noise Added Image
-    GUIDE: Adjust SDEV for tuning noise
+    GUIDE: Adjust SDEV for tuning noise as needed
 """
 def add_noise(img):
     img_arr = np.array(img)
